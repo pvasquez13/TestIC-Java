@@ -14,6 +14,7 @@ public class CalculadoraTest {
 		Calculadora calc = new Calculadora();
 		int resultado = calc.sumar(1, 4);
 		assertEquals(5, resultado);
+		
 	}
 
 	@Test
