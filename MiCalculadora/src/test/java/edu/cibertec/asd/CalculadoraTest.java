@@ -22,5 +22,12 @@ public class CalculadoraTest {
 		int resultado = calc.sumar(7, 10);
 		assertEquals(17, resultado);
 	}
+	
+	@Test
+	public void Sumar5ymenos1_resulta4() {
+		Calculadora calc = new Calculadora();
+		int resultado = calc.sumar(5, -1);
+		assertEquals(4, resultado);
+	}
 
 }
